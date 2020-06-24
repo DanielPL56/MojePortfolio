@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Daniel Woelk Portfolio</title>
 
     <meta name="description" content="Portfolio - Daniel Woelk" />
     <meta name="keywords" content="portfolio, młody programista, .net developer, .net developer junior, junior, .net, c#, html, css, javascript" />
@@ -65,15 +65,19 @@
                 <div style="clear:both"></div>
 
 
-                <a href="https://www.facebook.com/daniel.woelk.5/">
+                <a href="https://www.facebook.com/daniel.woelk.5/" target="_blank">
                     <div class="facebook"><i class="icon-facebook"></i></div>
                 </a>
 
-                <a href="http://www.github.pl"><div class="gitHub"></div></a>
+                <a href="https://github.com/DanielPL56/MojePortfolio" target="_blank">
+                    <div class="gitHub"><i class="icon-git-squared"></i></div>
+                </a>
+               
+            </div>
+            <div style="clear:both"></div>
 
-                <div class="contact"></div>
-                <div style="clear:both"></div>
-
+            <div class="rectangle" runat="server" >
+                &copy <%: String.Format("{0} Wszelkie prawa zastrzeżone", DateTime.Now.Year) %>
             </div>
             
         </div>
