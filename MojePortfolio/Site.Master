@@ -77,7 +77,7 @@
             <div style="clear:both"></div>
 
             <div class="rectangle" runat="server" >
-                &copy <%: String.Format("{0} Wszelkie prawa zastrzeżone", DateTime.Now.Year) %>
+                &copy <%: String.Format($"{DateTime.Now.Year}") %>
             </div>
             
         </div>
