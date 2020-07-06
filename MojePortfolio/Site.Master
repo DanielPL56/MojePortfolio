@@ -27,7 +27,7 @@
             </div>
 
             <div class="square">
-                <a href="Me.aspx" class="tileLink">
+                <a href="Default.aspx" class="tileLink">
                     <div class="tile1"><i class="icon-user"></i><br />
                         O mnie
                     </div>
@@ -39,7 +39,7 @@
                     </div>
                 </a>
 
-                <a href="CV.aspx" class="tileLink">
+                <a href="https://cveasy.pl/r/ZJO98YeHM" class="tileLink" target="_blank">
                     <div class="tile2"><i class=icon-graduation-cap></i><br />
                         Cirruculum Vitae
                     </div>
@@ -52,7 +52,13 @@
                 </a>
                 <div style="clear:both"></div>
 
-                <div class="tile4">Programowanie to moja pasja. </div>
+                <div class="tile4">
+                    Aktualnie studiuje książke:<br />
+                    <b>Język C# 6.0 i Platforma .NET 4.6 </b><a href="/Img/Book.jpg"><img src="/Img/Book.jpg" width="30" height="30" /></a><br />
+                    Autorstwa:<br />
+                    <b>- Andrew Troelsen</b><br />
+                    <b>- Philip Japikse</b>
+                </div>
 
             </div>
 

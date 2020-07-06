@@ -77,7 +77,8 @@
     <Content Include="Content\Timer.js" />
     <Content Include="CV.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Me.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Img\Book.jpg" />
     <Content Include="Skills.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -92,12 +93,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Me.aspx.cs">
-      <DependentUpon>Me.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Me.aspx.designer.cs">
-      <DependentUpon>Me.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
